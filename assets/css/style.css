@@ -149,6 +149,12 @@ a:hover {
   font-size: 1.1rem;
 }
 
+.title-s {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
@@ -844,22 +850,42 @@ a:hover {
   }
 }
 
-.skill-mf span {
-  color: #4e4e4e;
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
+.skill-mf {
+  width: 48%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #0078ff;
+.progress {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
+.progress-bar {
+  background-color: #007bff;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.pull-right {
+  float: right;
+  color: #666;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
